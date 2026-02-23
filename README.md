@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  
+  # PEPPERONE LINKTREE
 
-## Getting Started
+Linktree oficial da Pepperone Brindes desenvolvido com foco em:
+</div>
 
-First, run the development server:
+*   Performance
+    
+*   SEO otimizado
+    
+*   Experiência premium
+    
+*   Compartilhamento nativo
+    
+*   QR Code integrado
+    
+*   Responsividade total
+    
 
+## Tecnologias utilizadas
+
+*   Next.js (App Router)
+    
+*   React
+    
+*   Tailwind CSS
+    
+*   Lucide Icons
+    
+
+## Links disponíveis
+
+- Site:[https://www.pepperone.com.br](https://www.pepperone.com.br)
+
+- Instagram:[https://www.instagram.com/pepperonebrindes](https://www.instagram.com/pepperonebrindes)
+
+- LinkedIn:[https://www.linkedin.com/company/pepperone/posts/?feedView=all](https://www.linkedin.com/company/pepperone/posts/?feedView=all)
+
+## Como rodar localmente
+
+1.  Instalar dependências:
+    
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2.  Rodar ambiente de desenvolvimento:
+```bash
+npm run dev
+```
+3. Acesse em :
+```bash
+http://localhost:3000
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## SEO Implementado
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este projeto já inclui:
 
-## Learn More
+*   MetadataBase
+    
+*   Canonical
+    
+*   Open Graph
+    
+*   Twitter Card
+    
+*   Robots configurado
+    
+*   GoogleBot directives
+    
+*   Keywords estratégicas
+    
+*   JSON-LD (Organization, WebSite e WebPage)
+    
+*   Alternates para idioma
+    
+## Compartilhamento
 
-To learn more about Next.js, take a look at the following resources:
+O botão de share:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+*   Abre modal com QR Code
+    
+*   Usa Web Share API quando disponível
+    
+*   Faz fallback copiando o link
+    
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Idiomas
 
-## Deploy on Vercel
+*   Português (pt-BR)
+    
+*   Inglês (en-US)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Licença
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Projeto interno Pepperone Brindes.Todos os direitos reservados.
