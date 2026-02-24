@@ -110,8 +110,8 @@ export default function Header() {
             <Image
               src="/logoPepperone.png"
               alt="Logo Pepperone"
-              width={90}
-              height={82}
+              width={140}
+              height={102}
               className="bg-transparent"
               priority
             />

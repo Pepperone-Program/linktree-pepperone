@@ -81,10 +81,10 @@ export const metadata: Metadata = {
 
   icons: {
     icon: [
-      { url: "/favicon.ico" },
-      { url: "/icon.png", type: "image/png" }, // opcional
+      { url: "/iconPepperone.png" },
+      { url: "/iconPepperone.png", type: "image/png" }, // opcional
     ],
-    apple: [{ url: "/apple-touch-icon.png" }], // opcional
+    apple: [{ url: "/iconPepperone.png" }], // opcional
   },
 
   // Se tiver Google Search Console / Bing, coloque tokens aqui
