@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React, { useMemo, useState } from "react";
-import { ShieldCheck, Truck, BriefcaseBusiness, Share2, X, Copy, Check, QrCode } from "lucide-react";
+import { ShieldCheck, Truck, BriefcaseBusiness, Share2, X, Copy, Check, QrCode, MessageCircle } from "lucide-react";
 import { useLocale } from "../context/locale-context";
 
 const LINKTREE_URL = "https://linktree.pepperone.com.br";
@@ -124,6 +124,42 @@ export default function Header() {
           <p className="max-w-xl text-sm sm:text-base text-zinc-700">
             {subtitle}
           </p>
+
+          <div className="flex justify-around ">
+
+            <a
+              href="mailto:vendas@pepperone.com.br"
+              className="m-1 px-2 py-2 transition-transform duration-300 hover:scale-105"
+              style={{ borderRadius: '50%', border: '1px solid #ef4444' }}
+              aria-label="E-mail"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 448" fill="#ef4444"><path fill="#ef4444" d="M469 21H43q-18 0-30.5 13T0 64v256q0 17 12.5 30T43 363h426q18 0 30.5-13t12.5-30V64q0-17-12.5-30T469 21zm-40 43L256 166L83 64h346zM43 320V90l202 121q2 2 11 2t11-2L469 90v230H43z"/></svg>
+            </a>
+            
+            <a
+              href="https://api.whatsapp.com/send?1=pt_BR&phone=5511947388467&text=Ol%C3%A1,%20vim%20do%20linktree"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="m-1 px-2 py-2 transition-transform duration-300 hover:scale-105"
+              style={{ borderRadius: '50%', border: '1px solid #048b3b' }}
+              aria-label="WhatsApp"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 464 488" fill="#048b3b"><path fill="#048b3b" d="M462 228q0 93-66 159t-160 66q-56 0-109-28L2 464l40-120q-32-54-32-116q0-93 66-158.5T236 4t160 65.5T462 228zM236 39q-79 0-134.5 55.5T46 228q0 62 36 111l-24 70l74-23q49 31 104 31q79 0 134.5-55.5T426 228T370.5 94.5T236 39zm114 241q-1-1-10-7q-3-1-19-8.5t-19-8.5q-9-3-13 2q-1 3-4.5 7.5t-7.5 9t-5 5.5q-4 6-12 1q-34-17-45-27q-7-7-13.5-15t-12-15t-5.5-8q-3-7 3-11q4-6 8-10l6-9q2-5-1-10q-4-13-17-41q-3-9-12-9h-11q-9 0-15 7q-19 19-19 45q0 24 22 57l2 3q2 3 4.5 6.5t7 9t9 10.5t10.5 11.5t13 12.5t14.5 11.5t16.5 10t18 8.5q16 6 27.5 10t18 5t9.5 1t7-1t5-1q9-1 21.5-9t15.5-17q8-21 3-26z"/>
+              </svg>
+            </a>
+            <a
+              href="https://web.facebook.com/pepperonepromocional?locale=pt_BR"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="m-1 px-2 py-2 transition-transform duration-300 hover:scale-105"
+              style={{ borderRadius: '50%', border: '1px solid #3b82f6' }}
+              aria-label="Facebook"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 224 488" fill="#3b82f6"><path fill="#3b82f6" d="M51 91v63H4v78h47v230h95V232h65q6-37 8-78h-72v-53q0-6 6.5-12.5T168 82h52V2h-71q-28 0-48.5 8.5T71 29.5T57 55t-5.5 21.5T51 91z"/>
+              </svg>
+            </a>
+
+        </div>
 
         </div>
       </header>
